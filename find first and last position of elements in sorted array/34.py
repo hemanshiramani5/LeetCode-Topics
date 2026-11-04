@@ -5,7 +5,6 @@ class Solution:
         left = 0
         right = len(nums) - 1
         first = -1
-
         # Find first occurrence
         while left <= right:
             mid = (left + right) // 2
